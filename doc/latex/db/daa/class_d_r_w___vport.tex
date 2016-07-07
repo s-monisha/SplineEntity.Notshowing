@@ -1,0 +1,181 @@
+\hypertarget{class_d_r_w___vport}{}\section{D\+R\+W\+\_\+\+Vport Class Reference}
+\label{class_d_r_w___vport}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+
+
+Class to handle vport entries.  
+
+
+
+
+{\ttfamily \#include $<$drw\+\_\+objects.\+h$>$}
+
+Inheritance diagram for D\+R\+W\+\_\+\+Vport\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{db/daa/class_d_r_w___vport}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_d_r_w___vport_a7f865bb07bda60869ece9c15b7ceb186}{parse\+Code} (int code, dxf\+Reader $\ast$reader)
+\begin{DoxyCompactList}\small\item\em Class to handle vport entries. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \hyperlink{class_d_r_w___vport_a27df49d3aacabe83be11ac29463f75c1}{lower\+Left}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \hyperlink{class_d_r_w___vport_ae63541133c20a69a6e13f25191e02b05}{Upper\+Right}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \hyperlink{class_d_r_w___vport_a56104afc60b9fb0b8c6682982f92a45e}{center}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \hyperlink{class_d_r_w___vport_a152be2cc28b499c29e9302efa54e001c}{snap\+Base}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \hyperlink{class_d_r_w___vport_a19aa53d1282cb737b21fa3d3b60d3b20}{snap\+Spacing}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \hyperlink{class_d_r_w___vport_a0284747ef8bda7287e99534d9fdc75e5}{grid\+Spacing}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \hyperlink{class_d_r_w___vport_a657f3b92d041527a5a485dce22c448a1}{view\+Dir}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \hyperlink{class_d_r_w___vport_a93eb77539e5ad11990b828074685d85f}{view\+Target}
+\item 
+double \hyperlink{class_d_r_w___vport_aae2ac1375b707a159d317051a9ff4e9e}{height}
+\item 
+double \hyperlink{class_d_r_w___vport_ab84331826a4e1bd181eb2ca6a55e4a97}{ratio}
+\item 
+double \hyperlink{class_d_r_w___vport_a9d3e2b640f9f9791d50b00f5cae452f9}{lens\+Height}
+\item 
+double \hyperlink{class_d_r_w___vport_a2ee10a71212915501bfdbaa532ec7107}{front\+Clip}
+\item 
+double \hyperlink{class_d_r_w___vport_a160e2ab229be33a622e4f888eb4295c7}{back\+Clip}
+\item 
+double \hyperlink{class_d_r_w___vport_a1709ba5680cf5b0bf9c7b41bab479225}{snap\+Angle}
+\item 
+double \hyperlink{class_d_r_w___vport_a2705ee0b61e21b33cad269b71c04b86c}{twist\+Angle}
+\item 
+int \hyperlink{class_d_r_w___vport_ab96feaf67d7eed371e30ffdf04a4a9cb}{view\+Mode}
+\item 
+int \hyperlink{class_d_r_w___vport_afdff3db96e16473300e9c2d50b464267}{circle\+Zoom}
+\item 
+int \hyperlink{class_d_r_w___vport_a2e8e4ad00361daa81e7cdcd3ffc51d4f}{fast\+Zoom}
+\item 
+int \hyperlink{class_d_r_w___vport_ac3bd19802da31bd4bb9e07255e0bbdc6}{ucs\+Icon}
+\item 
+int \hyperlink{class_d_r_w___vport_a9a358c56a549eba62bb326fdcc510bb2}{snap}
+\item 
+int \hyperlink{class_d_r_w___vport_afd06c82134688b83439ab917d399eaa6}{grid}
+\item 
+int \hyperlink{class_d_r_w___vport_a09eede75fea3bb3052edfc9caf5fd380}{snap\+Style}
+\item 
+int \hyperlink{class_d_r_w___vport_ab69959b8dfaf2ce024b4babee4466445}{snap\+Isopair}
+\item 
+int \hyperlink{class_d_r_w___vport_a44d1f134682b67fc14a92e468677f493}{grid\+Behavior}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class to handle vport entries. 
+
+Class to handle vport symbol table entries \begin{DoxyAuthor}{Author}
+Rallaz 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_d_r_w___vport_a7f865bb07bda60869ece9c15b7ceb186}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!parse\+Code@{parse\+Code}}
+\index{parse\+Code@{parse\+Code}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{parse\+Code}]{\setlength{\rightskip}{0pt plus 5cm}void D\+R\+W\+\_\+\+Vport\+::parse\+Code (
+\begin{DoxyParamCaption}
+\item[{int}]{code, }
+\item[{dxf\+Reader $\ast$}]{reader}
+\end{DoxyParamCaption}
+)}\label{class_d_r_w___vport_a7f865bb07bda60869ece9c15b7ceb186}
+
+
+Class to handle vport entries. 
+
+Class to handle vport symbol table entries \begin{DoxyAuthor}{Author}
+Rallaz 
+\end{DoxyAuthor}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_d_r_w___vport_a160e2ab229be33a622e4f888eb4295c7}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!back\+Clip@{back\+Clip}}
+\index{back\+Clip@{back\+Clip}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{back\+Clip}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Vport\+::back\+Clip}\label{class_d_r_w___vport_a160e2ab229be33a622e4f888eb4295c7}
+back clipping plane, code 44 \hypertarget{class_d_r_w___vport_a56104afc60b9fb0b8c6682982f92a45e}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!center@{center}}
+\index{center@{center}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{center}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord} D\+R\+W\+\_\+\+Vport\+::center}\label{class_d_r_w___vport_a56104afc60b9fb0b8c6682982f92a45e}
+center point in W\+C\+S, code 12 \& 22 \hypertarget{class_d_r_w___vport_afdff3db96e16473300e9c2d50b464267}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!circle\+Zoom@{circle\+Zoom}}
+\index{circle\+Zoom@{circle\+Zoom}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{circle\+Zoom}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Vport\+::circle\+Zoom}\label{class_d_r_w___vport_afdff3db96e16473300e9c2d50b464267}
+circle zoom percent, code 72 \hypertarget{class_d_r_w___vport_a2e8e4ad00361daa81e7cdcd3ffc51d4f}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!fast\+Zoom@{fast\+Zoom}}
+\index{fast\+Zoom@{fast\+Zoom}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{fast\+Zoom}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Vport\+::fast\+Zoom}\label{class_d_r_w___vport_a2e8e4ad00361daa81e7cdcd3ffc51d4f}
+fast zoom setting, code 73 \hypertarget{class_d_r_w___vport_a2ee10a71212915501bfdbaa532ec7107}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!front\+Clip@{front\+Clip}}
+\index{front\+Clip@{front\+Clip}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{front\+Clip}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Vport\+::front\+Clip}\label{class_d_r_w___vport_a2ee10a71212915501bfdbaa532ec7107}
+front clipping plane, code 43 \hypertarget{class_d_r_w___vport_afd06c82134688b83439ab917d399eaa6}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!grid@{grid}}
+\index{grid@{grid}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{grid}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Vport\+::grid}\label{class_d_r_w___vport_afd06c82134688b83439ab917d399eaa6}
+grid on/off, code 76 \hypertarget{class_d_r_w___vport_a44d1f134682b67fc14a92e468677f493}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!grid\+Behavior@{grid\+Behavior}}
+\index{grid\+Behavior@{grid\+Behavior}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{grid\+Behavior}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Vport\+::grid\+Behavior}\label{class_d_r_w___vport_a44d1f134682b67fc14a92e468677f493}
+grid behavior, code 60, undocummented \hypertarget{class_d_r_w___vport_a0284747ef8bda7287e99534d9fdc75e5}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!grid\+Spacing@{grid\+Spacing}}
+\index{grid\+Spacing@{grid\+Spacing}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{grid\+Spacing}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord} D\+R\+W\+\_\+\+Vport\+::grid\+Spacing}\label{class_d_r_w___vport_a0284747ef8bda7287e99534d9fdc75e5}
+grid Spacing, code 15 \& 25 \hypertarget{class_d_r_w___vport_aae2ac1375b707a159d317051a9ff4e9e}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!height@{height}}
+\index{height@{height}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{height}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Vport\+::height}\label{class_d_r_w___vport_aae2ac1375b707a159d317051a9ff4e9e}
+view height, code 40 \hypertarget{class_d_r_w___vport_a9d3e2b640f9f9791d50b00f5cae452f9}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!lens\+Height@{lens\+Height}}
+\index{lens\+Height@{lens\+Height}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{lens\+Height}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Vport\+::lens\+Height}\label{class_d_r_w___vport_a9d3e2b640f9f9791d50b00f5cae452f9}
+lens height, code 42 \hypertarget{class_d_r_w___vport_a27df49d3aacabe83be11ac29463f75c1}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!lower\+Left@{lower\+Left}}
+\index{lower\+Left@{lower\+Left}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{lower\+Left}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord} D\+R\+W\+\_\+\+Vport\+::lower\+Left}\label{class_d_r_w___vport_a27df49d3aacabe83be11ac29463f75c1}
+Lower left corner, code 10 \& 20 \hypertarget{class_d_r_w___vport_ab84331826a4e1bd181eb2ca6a55e4a97}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!ratio@{ratio}}
+\index{ratio@{ratio}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{ratio}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Vport\+::ratio}\label{class_d_r_w___vport_ab84331826a4e1bd181eb2ca6a55e4a97}
+viewport aspect ratio, code 41 \hypertarget{class_d_r_w___vport_a9a358c56a549eba62bb326fdcc510bb2}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!snap@{snap}}
+\index{snap@{snap}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{snap}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Vport\+::snap}\label{class_d_r_w___vport_a9a358c56a549eba62bb326fdcc510bb2}
+snap on/off, code 75 \hypertarget{class_d_r_w___vport_a1709ba5680cf5b0bf9c7b41bab479225}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!snap\+Angle@{snap\+Angle}}
+\index{snap\+Angle@{snap\+Angle}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{snap\+Angle}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Vport\+::snap\+Angle}\label{class_d_r_w___vport_a1709ba5680cf5b0bf9c7b41bab479225}
+snap rotation angle, code 50 \hypertarget{class_d_r_w___vport_a152be2cc28b499c29e9302efa54e001c}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!snap\+Base@{snap\+Base}}
+\index{snap\+Base@{snap\+Base}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{snap\+Base}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord} D\+R\+W\+\_\+\+Vport\+::snap\+Base}\label{class_d_r_w___vport_a152be2cc28b499c29e9302efa54e001c}
+snap base point in D\+C\+S, code 13 \& 23 \hypertarget{class_d_r_w___vport_ab69959b8dfaf2ce024b4babee4466445}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!snap\+Isopair@{snap\+Isopair}}
+\index{snap\+Isopair@{snap\+Isopair}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{snap\+Isopair}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Vport\+::snap\+Isopair}\label{class_d_r_w___vport_ab69959b8dfaf2ce024b4babee4466445}
+snap isopair, code 78 \hypertarget{class_d_r_w___vport_a19aa53d1282cb737b21fa3d3b60d3b20}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!snap\+Spacing@{snap\+Spacing}}
+\index{snap\+Spacing@{snap\+Spacing}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{snap\+Spacing}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord} D\+R\+W\+\_\+\+Vport\+::snap\+Spacing}\label{class_d_r_w___vport_a19aa53d1282cb737b21fa3d3b60d3b20}
+snap Spacing, code 14 \& 24 \hypertarget{class_d_r_w___vport_a09eede75fea3bb3052edfc9caf5fd380}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!snap\+Style@{snap\+Style}}
+\index{snap\+Style@{snap\+Style}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{snap\+Style}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Vport\+::snap\+Style}\label{class_d_r_w___vport_a09eede75fea3bb3052edfc9caf5fd380}
+snap style, code 77 \hypertarget{class_d_r_w___vport_a2705ee0b61e21b33cad269b71c04b86c}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!twist\+Angle@{twist\+Angle}}
+\index{twist\+Angle@{twist\+Angle}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{twist\+Angle}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Vport\+::twist\+Angle}\label{class_d_r_w___vport_a2705ee0b61e21b33cad269b71c04b86c}
+view twist angle, code 51 \hypertarget{class_d_r_w___vport_ac3bd19802da31bd4bb9e07255e0bbdc6}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!ucs\+Icon@{ucs\+Icon}}
+\index{ucs\+Icon@{ucs\+Icon}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{ucs\+Icon}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Vport\+::ucs\+Icon}\label{class_d_r_w___vport_ac3bd19802da31bd4bb9e07255e0bbdc6}
+U\+C\+S\+I\+C\+O\+N setting, code 74 \hypertarget{class_d_r_w___vport_ae63541133c20a69a6e13f25191e02b05}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!Upper\+Right@{Upper\+Right}}
+\index{Upper\+Right@{Upper\+Right}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{Upper\+Right}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord} D\+R\+W\+\_\+\+Vport\+::\+Upper\+Right}\label{class_d_r_w___vport_ae63541133c20a69a6e13f25191e02b05}
+Upper right corner, code 11 \& 21 \hypertarget{class_d_r_w___vport_a657f3b92d041527a5a485dce22c448a1}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!view\+Dir@{view\+Dir}}
+\index{view\+Dir@{view\+Dir}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{view\+Dir}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord} D\+R\+W\+\_\+\+Vport\+::view\+Dir}\label{class_d_r_w___vport_a657f3b92d041527a5a485dce22c448a1}
+view direction from target point, code 16, 26 \& 36 \hypertarget{class_d_r_w___vport_ab96feaf67d7eed371e30ffdf04a4a9cb}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!view\+Mode@{view\+Mode}}
+\index{view\+Mode@{view\+Mode}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{view\+Mode}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Vport\+::view\+Mode}\label{class_d_r_w___vport_ab96feaf67d7eed371e30ffdf04a4a9cb}
+view mode, code 71 \hypertarget{class_d_r_w___vport_a93eb77539e5ad11990b828074685d85f}{}\index{D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}!view\+Target@{view\+Target}}
+\index{view\+Target@{view\+Target}!D\+R\+W\+\_\+\+Vport@{D\+R\+W\+\_\+\+Vport}}
+\subsubsection[{view\+Target}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord} D\+R\+W\+\_\+\+Vport\+::view\+Target}\label{class_d_r_w___vport_a93eb77539e5ad11990b828074685d85f}
+view target point, code 17, 27 \& 37 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/drw\+\_\+objects.\+h\item 
+src/drw\+\_\+objects.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,69 @@
+\hypertarget{class_d_r_w__3_dface}{}\section{D\+R\+W\+\_\+3\+Dface Class Reference}
+\label{class_d_r_w__3_dface}\index{D\+R\+W\+\_\+3\+Dface@{D\+R\+W\+\_\+3\+Dface}}
+
+
+Class to handle 3dface entity.  
+
+
+
+
+{\ttfamily \#include $<$drw\+\_\+entities.\+h$>$}
+
+Inheritance diagram for D\+R\+W\+\_\+3\+Dface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{da/dec/class_d_r_w__3_dface}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_d_r_w__3_dface_a56da97e5084ecff4a44fb96d268d32e6}{}const \hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \& \hyperlink{class_d_r_w__3_dface_a56da97e5084ecff4a44fb96d268d32e6}{first\+Corner} ()\label{class_d_r_w__3_dface_a56da97e5084ecff4a44fb96d268d32e6}
+
+\begin{DoxyCompactList}\small\item\em first corner in W\+C\+S \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w__3_dface_a721316b57f076fb50ccd3117262519d6}{}const \hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \& \hyperlink{class_d_r_w__3_dface_a721316b57f076fb50ccd3117262519d6}{second\+Corner} ()\label{class_d_r_w__3_dface_a721316b57f076fb50ccd3117262519d6}
+
+\begin{DoxyCompactList}\small\item\em second corner in W\+C\+S \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w__3_dface_ac88a266080ba7edfd54cb3c05097df2d}{}const \hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \& \hyperlink{class_d_r_w__3_dface_ac88a266080ba7edfd54cb3c05097df2d}{third\+Corner} ()\label{class_d_r_w__3_dface_ac88a266080ba7edfd54cb3c05097df2d}
+
+\begin{DoxyCompactList}\small\item\em third corner in W\+C\+S \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w__3_dface_aba1e46ff30324167bfac371ace58a2f9}{}const \hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \& \hyperlink{class_d_r_w__3_dface_aba1e46ff30324167bfac371ace58a2f9}{fourth\+Corner} ()\label{class_d_r_w__3_dface_aba1e46ff30324167bfac371ace58a2f9}
+
+\begin{DoxyCompactList}\small\item\em fourth corner in W\+C\+S \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w__3_dface_a7f7325421bb47d3e335e9e41237cf71d}{}Edge\+Flags \hyperlink{class_d_r_w__3_dface_a7f7325421bb47d3e335e9e41237cf71d}{edge\+Flags} ()\label{class_d_r_w__3_dface_a7f7325421bb47d3e335e9e41237cf71d}
+
+\begin{DoxyCompactList}\small\item\em edge visibility flags \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_d_r_w__3_dface_a0fbb465670025bbd116aef1804fa5b44}{invisibleflag}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_d_r_w__3_dface_a841b20016d7bf6d3221aa690fb477076}{}void \hyperlink{class_d_r_w__3_dface_a841b20016d7bf6d3221aa690fb477076}{parse\+Code} (int code, dxf\+Reader $\ast$reader)\label{class_d_r_w__3_dface_a841b20016d7bf6d3221aa690fb477076}
+
+\begin{DoxyCompactList}\small\item\em interpret code in dxf reading process or dispatch to inherited class \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w__3_dface_a728d8ad4840139bb826a67f1012b22ed}{}virtual bool \hyperlink{class_d_r_w__3_dface_a728d8ad4840139bb826a67f1012b22ed}{parse\+Dwg} (D\+R\+W\+::\+Version v, dwg\+Buffer $\ast$buf)\label{class_d_r_w__3_dface_a728d8ad4840139bb826a67f1012b22ed}
+
+\begin{DoxyCompactList}\small\item\em interpret dwg data (was already determined to be part of this object) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to handle 3dface entity. 
+
+Class to handle 3dface entity \begin{DoxyAuthor}{Author}
+Rallaz 
+\end{DoxyAuthor}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_d_r_w__3_dface_a0fbb465670025bbd116aef1804fa5b44}{}\index{D\+R\+W\+\_\+3\+Dface@{D\+R\+W\+\_\+3\+Dface}!invisibleflag@{invisibleflag}}
+\index{invisibleflag@{invisibleflag}!D\+R\+W\+\_\+3\+Dface@{D\+R\+W\+\_\+3\+Dface}}
+\subsubsection[{invisibleflag}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+3\+Dface\+::invisibleflag}\label{class_d_r_w__3_dface_a0fbb465670025bbd116aef1804fa5b44}
+invisible edge flag, code 70 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/drw\+\_\+entities.\+h\item 
+src/drw\+\_\+entities.\+cpp\end{DoxyCompactItemize}

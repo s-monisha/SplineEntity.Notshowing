@@ -1,0 +1,66 @@
+\hypertarget{class_d_r_w___ellipse}{}\section{D\+R\+W\+\_\+\+Ellipse Class Reference}
+\label{class_d_r_w___ellipse}\index{D\+R\+W\+\_\+\+Ellipse@{D\+R\+W\+\_\+\+Ellipse}}
+
+
+Class to handle ellipse entity.  
+
+
+
+
+{\ttfamily \#include $<$drw\+\_\+entities.\+h$>$}
+
+Inheritance diagram for D\+R\+W\+\_\+\+Ellipse\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{d0/ded/class_d_r_w___ellipse}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_d_r_w___ellipse_a5f99577d5e97fa8e0d308a2ab52a2f95}{ratio}
+\item 
+double \hyperlink{class_d_r_w___ellipse_a8b9ca88b1d30755bdaa2de0e11116ede}{staparam}
+\item 
+double \hyperlink{class_d_r_w___ellipse_a69490d7e26d7c8fa602ef4a540b22d52}{endparam}
+\item 
+int \hyperlink{class_d_r_w___ellipse_a6a8cd9de5c300fde3c52c26daf66ac77}{isccw}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_d_r_w___ellipse_a7e271b176d81110b92931514bddb2e6d}{}void \hyperlink{class_d_r_w___ellipse_a7e271b176d81110b92931514bddb2e6d}{parse\+Code} (int code, dxf\+Reader $\ast$reader)\label{class_d_r_w___ellipse_a7e271b176d81110b92931514bddb2e6d}
+
+\begin{DoxyCompactList}\small\item\em interpret code in dxf reading process or dispatch to inherited class \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w___ellipse_aa8871bb334eb53eb669eae505a4ae9fd}{}virtual bool \hyperlink{class_d_r_w___ellipse_aa8871bb334eb53eb669eae505a4ae9fd}{parse\+Dwg} (D\+R\+W\+::\+Version v, dwg\+Buffer $\ast$buf)\label{class_d_r_w___ellipse_aa8871bb334eb53eb669eae505a4ae9fd}
+
+\begin{DoxyCompactList}\small\item\em interpret dwg data (was already determined to be part of this object) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to handle ellipse entity. 
+
+Class to handle ellipse and elliptic arc entity Note\+: start/end parameter are in radians for ellipse entity but for hatch boundary are in degrees \begin{DoxyAuthor}{Author}
+Rallaz 
+\end{DoxyAuthor}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_d_r_w___ellipse_a69490d7e26d7c8fa602ef4a540b22d52}{}\index{D\+R\+W\+\_\+\+Ellipse@{D\+R\+W\+\_\+\+Ellipse}!endparam@{endparam}}
+\index{endparam@{endparam}!D\+R\+W\+\_\+\+Ellipse@{D\+R\+W\+\_\+\+Ellipse}}
+\subsubsection[{endparam}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Ellipse\+::endparam}\label{class_d_r_w___ellipse_a69490d7e26d7c8fa602ef4a540b22d52}
+end parameter, code 42, 2$\ast$\+P\+I for full ellipse \hypertarget{class_d_r_w___ellipse_a6a8cd9de5c300fde3c52c26daf66ac77}{}\index{D\+R\+W\+\_\+\+Ellipse@{D\+R\+W\+\_\+\+Ellipse}!isccw@{isccw}}
+\index{isccw@{isccw}!D\+R\+W\+\_\+\+Ellipse@{D\+R\+W\+\_\+\+Ellipse}}
+\subsubsection[{isccw}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Ellipse\+::isccw}\label{class_d_r_w___ellipse_a6a8cd9de5c300fde3c52c26daf66ac77}
+is counter clockwise arc?, only used in hatch, code 73 \hypertarget{class_d_r_w___ellipse_a5f99577d5e97fa8e0d308a2ab52a2f95}{}\index{D\+R\+W\+\_\+\+Ellipse@{D\+R\+W\+\_\+\+Ellipse}!ratio@{ratio}}
+\index{ratio@{ratio}!D\+R\+W\+\_\+\+Ellipse@{D\+R\+W\+\_\+\+Ellipse}}
+\subsubsection[{ratio}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Ellipse\+::ratio}\label{class_d_r_w___ellipse_a5f99577d5e97fa8e0d308a2ab52a2f95}
+ratio, code 40 \hypertarget{class_d_r_w___ellipse_a8b9ca88b1d30755bdaa2de0e11116ede}{}\index{D\+R\+W\+\_\+\+Ellipse@{D\+R\+W\+\_\+\+Ellipse}!staparam@{staparam}}
+\index{staparam@{staparam}!D\+R\+W\+\_\+\+Ellipse@{D\+R\+W\+\_\+\+Ellipse}}
+\subsubsection[{staparam}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Ellipse\+::staparam}\label{class_d_r_w___ellipse_a8b9ca88b1d30755bdaa2de0e11116ede}
+start parameter, code 41, 0.\+0 for full ellipse 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/drw\+\_\+entities.\+h\item 
+src/drw\+\_\+entities.\+cpp\end{DoxyCompactItemize}

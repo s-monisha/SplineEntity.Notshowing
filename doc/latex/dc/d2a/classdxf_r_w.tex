@@ -1,0 +1,78 @@
+\hypertarget{classdxf_r_w}{}\section{dxf\+R\+W Class Reference}
+\label{classdxf_r_w}\index{dxf\+R\+W@{dxf\+R\+W}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classdxf_r_w_ab3262753c90b34d8911691cdddaf7bfa}{read} (\hyperlink{class_d_r_w___interface}{D\+R\+W\+\_\+\+Interface} $\ast$interface\+\_\+, bool ext)
+\begin{DoxyCompactList}\small\item\em reads the file specified in constructor \end{DoxyCompactList}\item 
+void \hyperlink{classdxf_r_w_a6eb61de3ea383636bedc049d23d7e759}{set\+Ellipse\+Parts} (int parts)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classdxf_r_w_ab0d6afb7e2d297a292fcf2fe8af742b8}{}bool \hyperlink{classdxf_r_w_ab0d6afb7e2d297a292fcf2fe8af742b8}{process\+Dxf} ()\label{classdxf_r_w_ab0d6afb7e2d297a292fcf2fe8af742b8}
+
+\begin{DoxyCompactList}\small\item\em used by \hyperlink{classdxf_r_w_ab3262753c90b34d8911691cdddaf7bfa}{read()} to parse the content of the file \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classdxf_r_w_ac8c55be7454779ae2039aca405049860}{to\+Hex\+Str} (int n)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classdxf_r_w_aee251f0e7de9a814aa04b3cc9f2fa7a8}{el\+Parts}
+\item 
+std\+::vector$<$ \hyperlink{class_d_r_w___image_def}{D\+R\+W\+\_\+\+Image\+Def} $\ast$ $>$ \hyperlink{classdxf_r_w_ad90dd62fa6c58393eeb6baea1c777175}{image\+Def}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classdxf_r_w_ab3262753c90b34d8911691cdddaf7bfa}{}\index{dxf\+R\+W@{dxf\+R\+W}!read@{read}}
+\index{read@{read}!dxf\+R\+W@{dxf\+R\+W}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}bool dxf\+R\+W\+::read (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+R\+W\+\_\+\+Interface} $\ast$}]{interface\+\_\+, }
+\item[{bool}]{ext}
+\end{DoxyParamCaption}
+)}\label{classdxf_r_w_ab3262753c90b34d8911691cdddaf7bfa}
+
+
+reads the file specified in constructor 
+
+An interface must be provided. It is used by the class to signal various components being added. 
+\begin{DoxyParams}{Parameters}
+{\em interface\+\_\+} & the interface to use \\
+\hline
+{\em ext} & should the extrusion be applied to convert in 2\+D? \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true for success 
+\end{DoxyReturn}
+\hypertarget{classdxf_r_w_a6eb61de3ea383636bedc049d23d7e759}{}\index{dxf\+R\+W@{dxf\+R\+W}!set\+Ellipse\+Parts@{set\+Ellipse\+Parts}}
+\index{set\+Ellipse\+Parts@{set\+Ellipse\+Parts}!dxf\+R\+W@{dxf\+R\+W}}
+\subsubsection[{set\+Ellipse\+Parts}]{\setlength{\rightskip}{0pt plus 5cm}void dxf\+R\+W\+::set\+Ellipse\+Parts (
+\begin{DoxyParamCaption}
+\item[{int}]{parts}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classdxf_r_w_a6eb61de3ea383636bedc049d23d7e759}
+set parts munber when convert ellipse to polyline \hypertarget{classdxf_r_w_ac8c55be7454779ae2039aca405049860}{}\index{dxf\+R\+W@{dxf\+R\+W}!to\+Hex\+Str@{to\+Hex\+Str}}
+\index{to\+Hex\+Str@{to\+Hex\+Str}!dxf\+R\+W@{dxf\+R\+W}}
+\subsubsection[{to\+Hex\+Str}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string dxf\+R\+W\+::to\+Hex\+Str (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classdxf_r_w_ac8c55be7454779ae2039aca405049860}
+utility function convert a int to string in hex 
+
+\subsection{Member Data Documentation}
+\hypertarget{classdxf_r_w_aee251f0e7de9a814aa04b3cc9f2fa7a8}{}\index{dxf\+R\+W@{dxf\+R\+W}!el\+Parts@{el\+Parts}}
+\index{el\+Parts@{el\+Parts}!dxf\+R\+W@{dxf\+R\+W}}
+\subsubsection[{el\+Parts}]{\setlength{\rightskip}{0pt plus 5cm}int dxf\+R\+W\+::el\+Parts\hspace{0.3cm}{\ttfamily [private]}}\label{classdxf_r_w_aee251f0e7de9a814aa04b3cc9f2fa7a8}
+parts munber when convert ellipse to polyline \hypertarget{classdxf_r_w_ad90dd62fa6c58393eeb6baea1c777175}{}\index{dxf\+R\+W@{dxf\+R\+W}!image\+Def@{image\+Def}}
+\index{image\+Def@{image\+Def}!dxf\+R\+W@{dxf\+R\+W}}
+\subsubsection[{image\+Def}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<${\bf D\+R\+W\+\_\+\+Image\+Def}$\ast$$>$ dxf\+R\+W\+::image\+Def\hspace{0.3cm}{\ttfamily [private]}}\label{classdxf_r_w_ad90dd62fa6c58393eeb6baea1c777175}
+image\+Def list 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/libdxfrw.\+h\item 
+src/libdxfrw.\+cpp\end{DoxyCompactItemize}

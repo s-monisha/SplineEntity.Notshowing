@@ -1,0 +1,82 @@
+\hypertarget{class_d_r_w___arc}{}\section{D\+R\+W\+\_\+\+Arc Class Reference}
+\label{class_d_r_w___arc}\index{D\+R\+W\+\_\+\+Arc@{D\+R\+W\+\_\+\+Arc}}
+
+
+Class to handle arc entity.  
+
+
+
+
+{\ttfamily \#include $<$drw\+\_\+entities.\+h$>$}
+
+Inheritance diagram for D\+R\+W\+\_\+\+Arc\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{d1/ddc/class_d_r_w___arc}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_d_r_w___arc_a1d2d880ea3dcfd52429d9a9c4cb680d2}{}const \hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \& \hyperlink{class_d_r_w___arc_a1d2d880ea3dcfd52429d9a9c4cb680d2}{center} ()\label{class_d_r_w___arc_a1d2d880ea3dcfd52429d9a9c4cb680d2}
+
+\begin{DoxyCompactList}\small\item\em center point in O\+C\+S \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w___arc_a22792839d56bb40f5f01fcf8000f1c8d}{}double \hyperlink{class_d_r_w___arc_a22792839d56bb40f5f01fcf8000f1c8d}{radius} ()\label{class_d_r_w___arc_a22792839d56bb40f5f01fcf8000f1c8d}
+
+\begin{DoxyCompactList}\small\item\em the radius of the circle \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w___arc_adae2ce7765f7572c747ee13c82ef55a7}{}double \hyperlink{class_d_r_w___arc_adae2ce7765f7572c747ee13c82ef55a7}{start\+Angle} ()\label{class_d_r_w___arc_adae2ce7765f7572c747ee13c82ef55a7}
+
+\begin{DoxyCompactList}\small\item\em start angle in radians \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w___arc_aa11139680c3bc9d63eb266968d4aa5fb}{}double \hyperlink{class_d_r_w___arc_aa11139680c3bc9d63eb266968d4aa5fb}{end\+Angle} ()\label{class_d_r_w___arc_aa11139680c3bc9d63eb266968d4aa5fb}
+
+\begin{DoxyCompactList}\small\item\em end angle in radians \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w___arc_a59fbfc76b5fd2846a447a2f34c8ed1c0}{}double \hyperlink{class_d_r_w___arc_a59fbfc76b5fd2846a447a2f34c8ed1c0}{thick} ()\label{class_d_r_w___arc_a59fbfc76b5fd2846a447a2f34c8ed1c0}
+
+\begin{DoxyCompactList}\small\item\em thickness \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w___arc_adeaf1204c08b172ba08106b61f13d4eb}{}const \hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} \& \hyperlink{class_d_r_w___arc_adeaf1204c08b172ba08106b61f13d4eb}{extrusion} ()\label{class_d_r_w___arc_adeaf1204c08b172ba08106b61f13d4eb}
+
+\begin{DoxyCompactList}\small\item\em extrusion \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_d_r_w___arc_a7718d55eb1ddd3c4038be5798f37570e}{staangle}
+\item 
+double \hyperlink{class_d_r_w___arc_a3425163b91e875fc7ffad0176e0e8183}{endangle}
+\item 
+int \hyperlink{class_d_r_w___arc_aaacaac1262bc3e4a2e83c13804d1cb00}{isccw}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_d_r_w___arc_a837c22a41f1b3eff3c64b10faff85de5}{}void \hyperlink{class_d_r_w___arc_a837c22a41f1b3eff3c64b10faff85de5}{parse\+Code} (int code, dxf\+Reader $\ast$reader)\label{class_d_r_w___arc_a837c22a41f1b3eff3c64b10faff85de5}
+
+\begin{DoxyCompactList}\small\item\em interpret code in dxf reading process or dispatch to inherited class \end{DoxyCompactList}\item 
+\hypertarget{class_d_r_w___arc_ab76e7a51ddf6d330373a330d0d610069}{}virtual bool \hyperlink{class_d_r_w___arc_ab76e7a51ddf6d330373a330d0d610069}{parse\+Dwg} (D\+R\+W\+::\+Version v, dwg\+Buffer $\ast$buf)\label{class_d_r_w___arc_ab76e7a51ddf6d330373a330d0d610069}
+
+\begin{DoxyCompactList}\small\item\em interpret dwg data (was already determined to be part of this object) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to handle arc entity. 
+
+Class to handle arc entity \begin{DoxyAuthor}{Author}
+Rallaz 
+\end{DoxyAuthor}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_d_r_w___arc_a3425163b91e875fc7ffad0176e0e8183}{}\index{D\+R\+W\+\_\+\+Arc@{D\+R\+W\+\_\+\+Arc}!endangle@{endangle}}
+\index{endangle@{endangle}!D\+R\+W\+\_\+\+Arc@{D\+R\+W\+\_\+\+Arc}}
+\subsubsection[{endangle}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Arc\+::endangle}\label{class_d_r_w___arc_a3425163b91e875fc7ffad0176e0e8183}
+end angle, code 51 in radians \hypertarget{class_d_r_w___arc_aaacaac1262bc3e4a2e83c13804d1cb00}{}\index{D\+R\+W\+\_\+\+Arc@{D\+R\+W\+\_\+\+Arc}!isccw@{isccw}}
+\index{isccw@{isccw}!D\+R\+W\+\_\+\+Arc@{D\+R\+W\+\_\+\+Arc}}
+\subsubsection[{isccw}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Arc\+::isccw}\label{class_d_r_w___arc_aaacaac1262bc3e4a2e83c13804d1cb00}
+is counter clockwise arc?, only used in hatch, code 73 \hypertarget{class_d_r_w___arc_a7718d55eb1ddd3c4038be5798f37570e}{}\index{D\+R\+W\+\_\+\+Arc@{D\+R\+W\+\_\+\+Arc}!staangle@{staangle}}
+\index{staangle@{staangle}!D\+R\+W\+\_\+\+Arc@{D\+R\+W\+\_\+\+Arc}}
+\subsubsection[{staangle}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Arc\+::staangle}\label{class_d_r_w___arc_a7718d55eb1ddd3c4038be5798f37570e}
+start angle, code 50 in radians 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/drw\+\_\+entities.\+h\item 
+src/drw\+\_\+entities.\+cpp\end{DoxyCompactItemize}

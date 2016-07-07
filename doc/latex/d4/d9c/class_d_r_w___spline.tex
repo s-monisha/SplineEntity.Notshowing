@@ -1,0 +1,157 @@
+\hypertarget{class_d_r_w___spline}{}\section{D\+R\+W\+\_\+\+Spline Class Reference}
+\label{class_d_r_w___spline}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+
+
+Class to handle spline entity.  
+
+
+
+
+{\ttfamily \#include $<$drw\+\_\+entities.\+h$>$}
+
+Inheritance diagram for D\+R\+W\+\_\+\+Spline\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d4/d9c/class_d_r_w___spline}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_d_r_w___spline_a7d2455d56e3de91a85a7afd1a5b34dfe}{ex}
+\item 
+double \hyperlink{class_d_r_w___spline_a937a3c0c4450e383de5ebbbbc892d1ad}{ey}
+\item 
+double \hyperlink{class_d_r_w___spline_ad3ad8a265fbc8c07bc06f8939a8a31a6}{ez}
+\item 
+double \hyperlink{class_d_r_w___spline_af669678833d9334001f372ef3e459063}{tgsx}
+\item 
+double \hyperlink{class_d_r_w___spline_a0d22ecfcfa1ccdf83d3799555b808fb6}{tgsy}
+\item 
+double \hyperlink{class_d_r_w___spline_a432ab2ee17f00fe8c3537f3ab12f0524}{tgsz}
+\item 
+double \hyperlink{class_d_r_w___spline_ae6195201183d629d458d820417587197}{tgex}
+\item 
+double \hyperlink{class_d_r_w___spline_a5bbb13c6219350335c353b86755adcea}{tgey}
+\item 
+double \hyperlink{class_d_r_w___spline_acfe280748cc843881dffd17430a2be37}{tgez}
+\item 
+int \hyperlink{class_d_r_w___spline_a49110f44d95d47090449c56beaaac3ca}{flags}
+\item 
+int \hyperlink{class_d_r_w___spline_af60e9efc3c39f418196cca4cc9f8125b}{degree}
+\item 
+int \hyperlink{class_d_r_w___spline_a5dd173d8176de55d07f00d96dedb0201}{nknots}
+\item 
+int \hyperlink{class_d_r_w___spline_a73dcf2fa67f1029e4a8d6577b5b51656}{ncontrol}
+\item 
+int \hyperlink{class_d_r_w___spline_aa9269fcfa581a0e0b25a84fb8dddc96c}{nfit}
+\item 
+double \hyperlink{class_d_r_w___spline_a62139497f4127ed0d909cbe6cb7d5304}{tolknot}
+\item 
+double \hyperlink{class_d_r_w___spline_a9ebcea64002b14f0adfae66eadd9f24a}{tolcontrol}
+\item 
+double \hyperlink{class_d_r_w___spline_a8f91c72942350988a2c3b4652162d613}{tolfit}
+\item 
+std\+::vector$<$ double $>$ \hyperlink{class_d_r_w___spline_a90bf2f53cd19d98629e393f3cdd36c95}{knotslist}
+\item 
+std\+::vector$<$ \hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} $\ast$ $>$ \hyperlink{class_d_r_w___spline_a37b5e6ce7e32c1577fed59c3704c0e0f}{controllist}
+\item 
+std\+::vector$<$ \hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} $\ast$ $>$ \hyperlink{class_d_r_w___spline_aeefb7618b8c983a9abe32f974c8ca852}{fitlist}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} $\ast$ \hyperlink{class_d_r_w___spline_a651189169a59868278d298a9e954d093}{controlpoint}
+\item 
+\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} $\ast$ \hyperlink{class_d_r_w___spline_a63415bb4da307f0355bbbbac50a7bc47}{fitpoint}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_d_r_w___spline_a7f080e77e5112f8364c61b97387f8ee2}{}class {\bfseries dxf\+R\+W}\label{class_d_r_w___spline_a7f080e77e5112f8364c61b97387f8ee2}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class to handle spline entity. 
+
+Class to handle spline entity \begin{DoxyAuthor}{Author}
+Rallaz 
+\end{DoxyAuthor}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_d_r_w___spline_a37b5e6ce7e32c1577fed59c3704c0e0f}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!controllist@{controllist}}
+\index{controllist@{controllist}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{controllist}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<${\bf D\+R\+W\+\_\+\+Coord} $\ast$$>$ D\+R\+W\+\_\+\+Spline\+::controllist}\label{class_d_r_w___spline_a37b5e6ce7e32c1577fed59c3704c0e0f}
+control points list, code 10, 20 \& 30 \hypertarget{class_d_r_w___spline_a651189169a59868278d298a9e954d093}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!controlpoint@{controlpoint}}
+\index{controlpoint@{controlpoint}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{controlpoint}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord}$\ast$ D\+R\+W\+\_\+\+Spline\+::controlpoint\hspace{0.3cm}{\ttfamily [private]}}\label{class_d_r_w___spline_a651189169a59868278d298a9e954d093}
+current control point to add data \hypertarget{class_d_r_w___spline_af60e9efc3c39f418196cca4cc9f8125b}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!degree@{degree}}
+\index{degree@{degree}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{degree}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Spline\+::degree}\label{class_d_r_w___spline_af60e9efc3c39f418196cca4cc9f8125b}
+degree of the spline, code 71 \hypertarget{class_d_r_w___spline_a7d2455d56e3de91a85a7afd1a5b34dfe}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!ex@{ex}}
+\index{ex@{ex}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{ex}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::ex}\label{class_d_r_w___spline_a7d2455d56e3de91a85a7afd1a5b34dfe}
+normal vector x coordinate, code 210 \hypertarget{class_d_r_w___spline_a937a3c0c4450e383de5ebbbbc892d1ad}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!ey@{ey}}
+\index{ey@{ey}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{ey}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::ey}\label{class_d_r_w___spline_a937a3c0c4450e383de5ebbbbc892d1ad}
+normal vector y coordinate, code 220 \hypertarget{class_d_r_w___spline_ad3ad8a265fbc8c07bc06f8939a8a31a6}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!ez@{ez}}
+\index{ez@{ez}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{ez}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::ez}\label{class_d_r_w___spline_ad3ad8a265fbc8c07bc06f8939a8a31a6}
+normal vector z coordinate, code 230 \hypertarget{class_d_r_w___spline_aeefb7618b8c983a9abe32f974c8ca852}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!fitlist@{fitlist}}
+\index{fitlist@{fitlist}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{fitlist}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<${\bf D\+R\+W\+\_\+\+Coord} $\ast$$>$ D\+R\+W\+\_\+\+Spline\+::fitlist}\label{class_d_r_w___spline_aeefb7618b8c983a9abe32f974c8ca852}
+fit points list, code 11, 21 \& 31 \hypertarget{class_d_r_w___spline_a63415bb4da307f0355bbbbac50a7bc47}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!fitpoint@{fitpoint}}
+\index{fitpoint@{fitpoint}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{fitpoint}]{\setlength{\rightskip}{0pt plus 5cm}{\bf D\+R\+W\+\_\+\+Coord}$\ast$ D\+R\+W\+\_\+\+Spline\+::fitpoint\hspace{0.3cm}{\ttfamily [private]}}\label{class_d_r_w___spline_a63415bb4da307f0355bbbbac50a7bc47}
+current fit point to add data \hypertarget{class_d_r_w___spline_a49110f44d95d47090449c56beaaac3ca}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!flags@{flags}}
+\index{flags@{flags}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{flags}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Spline\+::flags}\label{class_d_r_w___spline_a49110f44d95d47090449c56beaaac3ca}
+spline flag, code 70 \hypertarget{class_d_r_w___spline_a90bf2f53cd19d98629e393f3cdd36c95}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!knotslist@{knotslist}}
+\index{knotslist@{knotslist}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{knotslist}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$double$>$ D\+R\+W\+\_\+\+Spline\+::knotslist}\label{class_d_r_w___spline_a90bf2f53cd19d98629e393f3cdd36c95}
+knots list, code 40 \hypertarget{class_d_r_w___spline_a73dcf2fa67f1029e4a8d6577b5b51656}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!ncontrol@{ncontrol}}
+\index{ncontrol@{ncontrol}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{ncontrol}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Spline\+::ncontrol}\label{class_d_r_w___spline_a73dcf2fa67f1029e4a8d6577b5b51656}
+number of control points, code 73, default 0 \hypertarget{class_d_r_w___spline_aa9269fcfa581a0e0b25a84fb8dddc96c}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!nfit@{nfit}}
+\index{nfit@{nfit}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{nfit}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Spline\+::nfit}\label{class_d_r_w___spline_aa9269fcfa581a0e0b25a84fb8dddc96c}
+number of fit points, code 74, default 0 \hypertarget{class_d_r_w___spline_a5dd173d8176de55d07f00d96dedb0201}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!nknots@{nknots}}
+\index{nknots@{nknots}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{nknots}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Spline\+::nknots}\label{class_d_r_w___spline_a5dd173d8176de55d07f00d96dedb0201}
+number of knots, code 72, default 0 \hypertarget{class_d_r_w___spline_ae6195201183d629d458d820417587197}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!tgex@{tgex}}
+\index{tgex@{tgex}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{tgex}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::tgex}\label{class_d_r_w___spline_ae6195201183d629d458d820417587197}
+end tangent x coordinate, code 13 \hypertarget{class_d_r_w___spline_a5bbb13c6219350335c353b86755adcea}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!tgey@{tgey}}
+\index{tgey@{tgey}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{tgey}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::tgey}\label{class_d_r_w___spline_a5bbb13c6219350335c353b86755adcea}
+end tangent y coordinate, code 23 \hypertarget{class_d_r_w___spline_acfe280748cc843881dffd17430a2be37}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!tgez@{tgez}}
+\index{tgez@{tgez}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{tgez}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::tgez}\label{class_d_r_w___spline_acfe280748cc843881dffd17430a2be37}
+end tangent z coordinate, code 33 \hypertarget{class_d_r_w___spline_af669678833d9334001f372ef3e459063}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!tgsx@{tgsx}}
+\index{tgsx@{tgsx}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{tgsx}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::tgsx}\label{class_d_r_w___spline_af669678833d9334001f372ef3e459063}
+start tangent x coordinate, code 12 \hypertarget{class_d_r_w___spline_a0d22ecfcfa1ccdf83d3799555b808fb6}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!tgsy@{tgsy}}
+\index{tgsy@{tgsy}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{tgsy}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::tgsy}\label{class_d_r_w___spline_a0d22ecfcfa1ccdf83d3799555b808fb6}
+start tangent y coordinate, code 22 \hypertarget{class_d_r_w___spline_a432ab2ee17f00fe8c3537f3ab12f0524}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!tgsz@{tgsz}}
+\index{tgsz@{tgsz}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{tgsz}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::tgsz}\label{class_d_r_w___spline_a432ab2ee17f00fe8c3537f3ab12f0524}
+start tangent z coordinate, code 32 \hypertarget{class_d_r_w___spline_a9ebcea64002b14f0adfae66eadd9f24a}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!tolcontrol@{tolcontrol}}
+\index{tolcontrol@{tolcontrol}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{tolcontrol}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::tolcontrol}\label{class_d_r_w___spline_a9ebcea64002b14f0adfae66eadd9f24a}
+control point tolerance, code 43, default 0.\+0000001 \hypertarget{class_d_r_w___spline_a8f91c72942350988a2c3b4652162d613}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!tolfit@{tolfit}}
+\index{tolfit@{tolfit}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{tolfit}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::tolfit}\label{class_d_r_w___spline_a8f91c72942350988a2c3b4652162d613}
+fit point tolerance, code 44, default 0.\+0000001 \hypertarget{class_d_r_w___spline_a62139497f4127ed0d909cbe6cb7d5304}{}\index{D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}!tolknot@{tolknot}}
+\index{tolknot@{tolknot}!D\+R\+W\+\_\+\+Spline@{D\+R\+W\+\_\+\+Spline}}
+\subsubsection[{tolknot}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Spline\+::tolknot}\label{class_d_r_w___spline_a62139497f4127ed0d909cbe6cb7d5304}
+knot tolerance, code 42, default 0.\+0000001 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/drw\+\_\+entities.\+h\item 
+src/drw\+\_\+entities.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,171 @@
+\hypertarget{class_d_r_w___entity}{}\section{D\+R\+W\+\_\+\+Entity Class Reference}
+\label{class_d_r_w___entity}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+
+
+Base class for entities.  
+
+
+
+
+{\ttfamily \#include $<$drw\+\_\+entities.\+h$>$}
+
+Inheritance diagram for D\+R\+W\+\_\+\+Entity\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=8.296296cm]{d2/d59/class_d_r_w___entity}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+enum D\+R\+W\+::\+E\+T\+Y\+P\+E \hyperlink{class_d_r_w___entity_a36dff42707384984a085dbea602d0217}{e\+Type}
+\item 
+int \hyperlink{class_d_r_w___entity_a32f66a2b4da26f1f9a42ffa8539c916c}{handle}
+\item 
+duint32 \hyperlink{class_d_r_w___entity_a76823e459149440d84397803e205dd55}{handle\+Dict}
+\item 
+duint32 \hyperlink{class_d_r_w___entity_afb7d80168b82c574d5387c4b0aa4cdd5}{handle\+Block}
+\item 
+U\+T\+F8\+S\+T\+R\+I\+N\+G \hyperlink{class_d_r_w___entity_a65b68c6c8712de3e2fada1d263b96042}{layer}
+\item 
+U\+T\+F8\+S\+T\+R\+I\+N\+G \hyperlink{class_d_r_w___entity_a1180883df434a22fdafbc8ac1273e46e}{line\+Type}
+\item 
+int \hyperlink{class_d_r_w___entity_a199afc08d2cc4c44ea58d49780582526}{color}
+\item 
+enum \hyperlink{class_d_r_w___l_w___conv_aed68cbc3d8bdf7e20003dd2d970279b3}{D\+R\+W\+\_\+\+L\+W\+\_\+\+Conv\+::line\+Width} \hyperlink{class_d_r_w___entity_a5e01429ed3b7199b17367a5c85970a0d}{l\+Weight}
+\item 
+double \hyperlink{class_d_r_w___entity_a167d107e81c5b2bb4ee015fa62e2fde2}{ltype\+Scale}
+\item 
+bool \hyperlink{class_d_r_w___entity_a410a134f3127298598a0075e60f3616d}{visible}
+\item 
+int \hyperlink{class_d_r_w___entity_a4448fbdbe618f83ed71a7c1ed98caeae}{color24}
+\item 
+std\+::string \hyperlink{class_d_r_w___entity_a84620ae9c9eea40d9d6373f28db5877a}{color\+Name}
+\item 
+D\+R\+W\+::\+Space \hyperlink{class_d_r_w___entity_a8baf5455459e70a668e59fd13cfa72e2}{space}
+\item 
+bool \hyperlink{class_d_r_w___entity_a62545716d4aec61cabb85576afc78dee}{have\+Extrusion}
+\item 
+std\+::string \hyperlink{class_d_r_w___entity_a10185df2d2f4d551921332c0968652d4}{image}
+\item 
+D\+R\+W\+::\+Shadow\+Mode \hyperlink{class_d_r_w___entity_add69fd0a0f9ac49dfc5aca84c3023c56}{shadow}
+\item 
+int \hyperlink{class_d_r_w___entity_a29c774531a5109cedc01eed7f2822f76}{material}
+\item 
+int \hyperlink{class_d_r_w___entity_abebf612b67fe860b34163f8cc16f0e78}{plot\+Style}
+\item 
+int \hyperlink{class_d_r_w___entity_a3706fb94037a61f8a4b705210b136117}{transparency}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_d_r_w___entity_a84d72c116d6bfaf0b1dab2782b8a764b}{calculate\+Axis} (\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} ext\+Point)
+\begin{DoxyCompactList}\small\item\em Calculate arbitary axis. \end{DoxyCompactList}\item 
+void \hyperlink{class_d_r_w___entity_a1c82add778b9dc940fa8f0231287858c}{extrude\+Point} (\hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} ext\+Point, \hyperlink{class_d_r_w___coord}{D\+R\+W\+\_\+\+Coord} $\ast$point)
+\begin{DoxyCompactList}\small\item\em Extrude a point using arbitary axis. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class for entities. 
+
+Base class for entities \begin{DoxyAuthor}{Author}
+Rallaz 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_d_r_w___entity_a84d72c116d6bfaf0b1dab2782b8a764b}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!calculate\+Axis@{calculate\+Axis}}
+\index{calculate\+Axis@{calculate\+Axis}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{calculate\+Axis}]{\setlength{\rightskip}{0pt plus 5cm}void D\+R\+W\+\_\+\+Entity\+::calculate\+Axis (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+R\+W\+\_\+\+Coord}}]{ext\+Point}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_d_r_w___entity_a84d72c116d6bfaf0b1dab2782b8a764b}
+
+
+Calculate arbitary axis. 
+
+Calculate arbitary axis for apply extrusions \begin{DoxyAuthor}{Author}
+Rallaz 
+\end{DoxyAuthor}
+\hypertarget{class_d_r_w___entity_a1c82add778b9dc940fa8f0231287858c}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!extrude\+Point@{extrude\+Point}}
+\index{extrude\+Point@{extrude\+Point}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{extrude\+Point}]{\setlength{\rightskip}{0pt plus 5cm}void D\+R\+W\+\_\+\+Entity\+::extrude\+Point (
+\begin{DoxyParamCaption}
+\item[{{\bf D\+R\+W\+\_\+\+Coord}}]{ext\+Point, }
+\item[{{\bf D\+R\+W\+\_\+\+Coord} $\ast$}]{point}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_d_r_w___entity_a1c82add778b9dc940fa8f0231287858c}
+
+
+Extrude a point using arbitary axis. 
+
+apply extrusion in a point using arbitary axis (previous calculated) \begin{DoxyAuthor}{Author}
+Rallaz 
+\end{DoxyAuthor}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_d_r_w___entity_a199afc08d2cc4c44ea58d49780582526}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!color@{color}}
+\index{color@{color}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{color}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Entity\+::color}\label{class_d_r_w___entity_a199afc08d2cc4c44ea58d49780582526}
+entity color, code 62 \hypertarget{class_d_r_w___entity_a4448fbdbe618f83ed71a7c1ed98caeae}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!color24@{color24}}
+\index{color24@{color24}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{color24}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Entity\+::color24}\label{class_d_r_w___entity_a4448fbdbe618f83ed71a7c1ed98caeae}
+24-\/bit color, code 420 \hypertarget{class_d_r_w___entity_a84620ae9c9eea40d9d6373f28db5877a}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!color\+Name@{color\+Name}}
+\index{color\+Name@{color\+Name}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{color\+Name}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string D\+R\+W\+\_\+\+Entity\+::color\+Name}\label{class_d_r_w___entity_a84620ae9c9eea40d9d6373f28db5877a}
+color name, code 430 \hypertarget{class_d_r_w___entity_a36dff42707384984a085dbea602d0217}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!e\+Type@{e\+Type}}
+\index{e\+Type@{e\+Type}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{e\+Type}]{\setlength{\rightskip}{0pt plus 5cm}enum D\+R\+W\+::\+E\+T\+Y\+P\+E D\+R\+W\+\_\+\+Entity\+::e\+Type}\label{class_d_r_w___entity_a36dff42707384984a085dbea602d0217}
+enum\+: entity type, code 0 \hypertarget{class_d_r_w___entity_a32f66a2b4da26f1f9a42ffa8539c916c}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!handle@{handle}}
+\index{handle@{handle}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{handle}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Entity\+::handle}\label{class_d_r_w___entity_a32f66a2b4da26f1f9a42ffa8539c916c}
+entity identifier, code 5 \hypertarget{class_d_r_w___entity_afb7d80168b82c574d5387c4b0aa4cdd5}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!handle\+Block@{handle\+Block}}
+\index{handle\+Block@{handle\+Block}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{handle\+Block}]{\setlength{\rightskip}{0pt plus 5cm}duint32 D\+R\+W\+\_\+\+Entity\+::handle\+Block}\label{class_d_r_w___entity_afb7d80168b82c574d5387c4b0aa4cdd5}
+Soft-\/pointer I\+D/handle to owner B\+L\+O\+C\+K\+\_\+\+R\+E\+C\+O\+R\+D object, code 330 \hypertarget{class_d_r_w___entity_a76823e459149440d84397803e205dd55}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!handle\+Dict@{handle\+Dict}}
+\index{handle\+Dict@{handle\+Dict}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{handle\+Dict}]{\setlength{\rightskip}{0pt plus 5cm}duint32 D\+R\+W\+\_\+\+Entity\+::handle\+Dict}\label{class_d_r_w___entity_a76823e459149440d84397803e205dd55}
+Hard-\/pointer I\+D/handle to owner dictionary, code 360 \hypertarget{class_d_r_w___entity_a62545716d4aec61cabb85576afc78dee}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!have\+Extrusion@{have\+Extrusion}}
+\index{have\+Extrusion@{have\+Extrusion}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{have\+Extrusion}]{\setlength{\rightskip}{0pt plus 5cm}bool D\+R\+W\+\_\+\+Entity\+::have\+Extrusion}\label{class_d_r_w___entity_a62545716d4aec61cabb85576afc78dee}
+set to true if the entity have extrusion \hypertarget{class_d_r_w___entity_a10185df2d2f4d551921332c0968652d4}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!image@{image}}
+\index{image@{image}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{image}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string D\+R\+W\+\_\+\+Entity\+::image}\label{class_d_r_w___entity_a10185df2d2f4d551921332c0968652d4}
+proxy entity graphics, code 92 and 310 \hypertarget{class_d_r_w___entity_a65b68c6c8712de3e2fada1d263b96042}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!layer@{layer}}
+\index{layer@{layer}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{layer}]{\setlength{\rightskip}{0pt plus 5cm}U\+T\+F8\+S\+T\+R\+I\+N\+G D\+R\+W\+\_\+\+Entity\+::layer}\label{class_d_r_w___entity_a65b68c6c8712de3e2fada1d263b96042}
+layer name, code 8 \hypertarget{class_d_r_w___entity_a1180883df434a22fdafbc8ac1273e46e}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!line\+Type@{line\+Type}}
+\index{line\+Type@{line\+Type}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{line\+Type}]{\setlength{\rightskip}{0pt plus 5cm}U\+T\+F8\+S\+T\+R\+I\+N\+G D\+R\+W\+\_\+\+Entity\+::line\+Type}\label{class_d_r_w___entity_a1180883df434a22fdafbc8ac1273e46e}
+line type, code 6 \hypertarget{class_d_r_w___entity_a167d107e81c5b2bb4ee015fa62e2fde2}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!ltype\+Scale@{ltype\+Scale}}
+\index{ltype\+Scale@{ltype\+Scale}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{ltype\+Scale}]{\setlength{\rightskip}{0pt plus 5cm}double D\+R\+W\+\_\+\+Entity\+::ltype\+Scale}\label{class_d_r_w___entity_a167d107e81c5b2bb4ee015fa62e2fde2}
+linetype scale, code 48 \hypertarget{class_d_r_w___entity_a5e01429ed3b7199b17367a5c85970a0d}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!l\+Weight@{l\+Weight}}
+\index{l\+Weight@{l\+Weight}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{l\+Weight}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf D\+R\+W\+\_\+\+L\+W\+\_\+\+Conv\+::line\+Width} D\+R\+W\+\_\+\+Entity\+::l\+Weight}\label{class_d_r_w___entity_a5e01429ed3b7199b17367a5c85970a0d}
+entity lineweight, code 370 \hypertarget{class_d_r_w___entity_a29c774531a5109cedc01eed7f2822f76}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!material@{material}}
+\index{material@{material}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{material}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Entity\+::material}\label{class_d_r_w___entity_a29c774531a5109cedc01eed7f2822f76}
+hard pointer id to material object, code 347 \hypertarget{class_d_r_w___entity_abebf612b67fe860b34163f8cc16f0e78}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!plot\+Style@{plot\+Style}}
+\index{plot\+Style@{plot\+Style}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{plot\+Style}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Entity\+::plot\+Style}\label{class_d_r_w___entity_abebf612b67fe860b34163f8cc16f0e78}
+hard pointer id to plot style object, code 420 \hypertarget{class_d_r_w___entity_add69fd0a0f9ac49dfc5aca84c3023c56}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!shadow@{shadow}}
+\index{shadow@{shadow}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{shadow}]{\setlength{\rightskip}{0pt plus 5cm}D\+R\+W\+::\+Shadow\+Mode D\+R\+W\+\_\+\+Entity\+::shadow}\label{class_d_r_w___entity_add69fd0a0f9ac49dfc5aca84c3023c56}
+shadow mode, code 284 \hypertarget{class_d_r_w___entity_a8baf5455459e70a668e59fd13cfa72e2}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!space@{space}}
+\index{space@{space}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{space}]{\setlength{\rightskip}{0pt plus 5cm}D\+R\+W\+::\+Space D\+R\+W\+\_\+\+Entity\+::space}\label{class_d_r_w___entity_a8baf5455459e70a668e59fd13cfa72e2}
+space indicator, code 67 \hypertarget{class_d_r_w___entity_a3706fb94037a61f8a4b705210b136117}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!transparency@{transparency}}
+\index{transparency@{transparency}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{transparency}]{\setlength{\rightskip}{0pt plus 5cm}int D\+R\+W\+\_\+\+Entity\+::transparency}\label{class_d_r_w___entity_a3706fb94037a61f8a4b705210b136117}
+transparency, code 440 \hypertarget{class_d_r_w___entity_a410a134f3127298598a0075e60f3616d}{}\index{D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}!visible@{visible}}
+\index{visible@{visible}!D\+R\+W\+\_\+\+Entity@{D\+R\+W\+\_\+\+Entity}}
+\subsubsection[{visible}]{\setlength{\rightskip}{0pt plus 5cm}bool D\+R\+W\+\_\+\+Entity\+::visible}\label{class_d_r_w___entity_a410a134f3127298598a0075e60f3616d}
+entity visibility, code 60 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/drw\+\_\+entities.\+h\item 
+src/drw\+\_\+entities.\+cpp\end{DoxyCompactItemize}
