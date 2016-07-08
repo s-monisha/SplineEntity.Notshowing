@@ -26,7 +26,7 @@ public:
      */ 
     
     //void Line(int a, int b, int c, int d);
-    void Spline(double ex, double ey, double tgsx, double tgsy, double tgex, double tgey, int flags, int degree);
+    void Spline(double ex, double ey, double ez, double tgez, double tgsz, double tgsx, double tgsy, double tgex, double tgey, int flags, int degree);
 
 
     virtual void addHeader(const DRW_Header *data) override {
