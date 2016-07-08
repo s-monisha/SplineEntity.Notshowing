@@ -25,7 +25,7 @@ EntityWriter::EntityWriter(dxfRW &dxfW) : dxfW(dxfW) {
 //    dxfW.writeSpline(&spline);
 //}
 
-void EntityWriter::Spline(double ex, double ey, double ez, double tgez, double tgsz, double tgsx, double tgsy, double tgex, double tgey, int flags, int degree)
+void EntityWriter::Spline(double ex, double ey, double ez, double tgez, double tgsz, double tgsx, double tgsy, double tgex, double tgey, int flags, int degree, string layer)
 {
     DRW_Spline spline;
     spline.ex = ex;
@@ -39,7 +39,7 @@ void EntityWriter::Spline(double ex, double ey, double ez, double tgez, double t
     spline.tgey = tgey;
     spline.flags = flags;
     spline.degree = degree;
-    spline.layer = "spline";
+    spline.layer = layer;
 
     dxfW.writeSpline(&spline);
 }
@@ -47,7 +47,7 @@ void EntityWriter::Spline(double ex, double ey, double ez, double tgez, double t
 
 void EntityWriter::writeEntities()
 {
-    Spline(0, 1, 0, 0, 2, 3, 3, 12, 12, 0, 2);
+    Spline(0, 1, 0, 0, 2, 3, 3, 12, 12, 0, 2, "spline");
 }
 
 
